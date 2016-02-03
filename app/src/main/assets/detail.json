@@ -1,0 +1,1994 @@
+{
+  "type": "page",
+  "pageType": "section",
+  "sectionId": "35bb8a90-d40e-11e2-8b8b-0800200c9a66",
+  "title": "TV-serier online - Streama serier på nätet eller ladda ned",
+  "description": "Viaplay erbjuder TV-serier på nätet för hela familjen. Streama serier online i hög kvalitet eller ladda ned till tablet eller mobil!",
+  "styles": [],
+  "_links": {
+    "curies": [{
+      "name": "viaplay",
+      "href": "http://docs.viaplay.tv/rel/{rel}",
+      "templated": true
+    }],
+    "self": {
+      "href": "https://content.viaplay.se/androidv2-se/serier"
+    },
+    "viaplay:root": {
+      "id": "root",
+      "title": "Start",
+      "href": "https://content.viaplay.se/androidv2-se{?dtg}"
+    },
+    "viaplay:editorial": {
+      "id": "editorial",
+      "href": "https://content.viaplay.se/androidv2-se/editorial{?dtg}"
+    },
+    "viaplay:socket": {
+      "id": "socket",
+      "href": "https://socket.viaplay.se/"
+    },
+    "viaplay:socket2": {
+      "id": "socket",
+      "href": "https://socket2.viaplay.se/"
+    },
+    "viaplay:search": {
+      "title": "Sök",
+      "href": "https://content.viaplay.se/androidv2-se/search{?query}{&dtg}",
+      "templated": true
+    },
+    "viaplay:autocomplete": {
+      "title": "autocomplete",
+      "href": "https://content.viaplay.se/androidv2-se/autocomplete{?query}{&dtg}",
+      "templated": true
+    },
+    "viaplay:validateSession": {
+      "id": "validateSession",
+      "href": "https://login.viaplay.se/api/validateSession/v1{?session}",
+      "templated": true
+    },
+    "viaplay:translations": {
+      "id": "translations",
+      "href": "https://cms-service.viaplay.se/translations/androidv2",
+      "templated": false
+    },
+    "viaplay:sections": [{
+      "id": "35bb8a90-d40e-11e2-8b8b-0800200c9a66",
+      "title": "Serier",
+      "href": "https://content.viaplay.se/androidv2-se/serier{?dtg}",
+      "type": "vod",
+      "name": "series",
+      "templated": true,
+      "active": true
+    }, {
+      "id": "2037b330-d411-11e2-8b8b-0800200c9a66",
+      "title": "Film",
+      "href": "https://content.viaplay.se/androidv2-se/film{?dtg}",
+      "type": "vod",
+      "name": "movie",
+      "templated": true
+    }, {
+      "id": "8e5febf0-d4e0-11e2-8b8b-0800200c9a66",
+      "title": "Sport",
+      "href": "https://content.viaplay.se/androidv2-se/sport{?dtg}",
+      "type": "vod",
+      "name": "sport",
+      "templated": true
+    }, {
+      "id": "1a6a2ec0-d4e2-11e2-8b8b-0800200c9a66",
+      "title": "Barn",
+      "href": "https://content.viaplay.se/androidv2-se/barn{?dtg}",
+      "type": "vod",
+      "name": "kids",
+      "templated": true
+    }, {
+      "id": "85561ec0-d4e1-11e2-8b8b-0800200c9a66",
+      "title": "Hyrbutik",
+      "href": "https://content.viaplay.se/androidv2-se/hyrbutik{?dtg}",
+      "type": "tvod",
+      "name": "85561ec0-d4e1-11e2-8b8b-0800200c9a66",
+      "templated": true
+    }],
+    "viaplay:login": {
+      "title": "Login",
+      "href": "https://login.viaplay.se/api/login/v1?deviceKey=androidv2-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fandroidv2-se%2Fserier{&username,password,persistent,forward}",
+      "templated": true
+    },
+    "viaplay:facebookLogin": {
+      "title": "Facebook Login",
+      "href": "https://login.viaplay.se/api/facebook/login?deviceKey=androidv2-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fandroidv2-se%2Fserier{&code,token,persistent}",
+      "templated": true
+    },
+    "viaplay:categoryFilters": [{
+      "title": "Alla serier",
+      "href": "https://content.viaplay.se/androidv2-se/serier/samtliga{?dtg}",
+      "templated": true
+    }, {
+      "title": "Action",
+      "href": "https://content.viaplay.se/androidv2-se/serier/action{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "Animation",
+      "href": "https://content.viaplay.se/androidv2-se/serier/animation{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "Barnserier",
+      "href": "https://content.viaplay.se/androidv2-se/serier/barnserier{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "Dokumentärer",
+      "href": "https://content.viaplay.se/androidv2-se/serier/dokumentarer{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "Drama",
+      "href": "https://content.viaplay.se/androidv2-se/serier/drama{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "Komedi",
+      "href": "https://content.viaplay.se/androidv2-se/serier/komedi{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "Kriminaldrama",
+      "href": "https://content.viaplay.se/androidv2-se/serier/kriminaldrama{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "Livsstil",
+      "href": "https://content.viaplay.se/androidv2-se/serier/livsstil{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "Matlagning",
+      "href": "https://content.viaplay.se/androidv2-se/serier/matlagning{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "Reality",
+      "href": "https://content.viaplay.se/androidv2-se/serier/reality{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "Science fiction",
+      "href": "https://content.viaplay.se/androidv2-se/serier/science-fiction{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "Sportdokumentärer",
+      "href": "https://content.viaplay.se/androidv2-se/serier/sportdokumentarer{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "Underhållning",
+      "href": "https://content.viaplay.se/androidv2-se/serier/underhallning{?dtg}",
+      "group": {
+        "position": 1,
+        "title": "Kategorier"
+      },
+      "templated": true
+    }, {
+      "title": "ABC Studios",
+      "href": "https://content.viaplay.se/androidv2-se/serier/abc-studios{?dtg}",
+      "group": {
+        "position": 2,
+        "title": "Teman"
+      },
+      "templated": true
+    }, {
+      "title": "Seriemaraton",
+      "href": "https://content.viaplay.se/androidv2-se/serier/seriemaraton{?dtg}",
+      "group": {
+        "position": 2,
+        "title": "Teman"
+      },
+      "templated": true
+    }, {
+      "title": "Skvaller och lögner",
+      "href": "https://content.viaplay.se/androidv2-se/serier/skvaller-och-logner{?dtg}",
+      "group": {
+        "position": 2,
+        "title": "Teman"
+      },
+      "templated": true
+    }, {
+      "title": "Djur och natur",
+      "href": "https://content.viaplay.se/androidv2-se/serier/djur-och-natur{?dtg}",
+      "group": {
+        "position": 2,
+        "title": "Teman"
+      },
+      "templated": true
+    }, {
+      "title": "Svenska serier",
+      "href": "https://content.viaplay.se/androidv2-se/serier/svenska-serier{?dtg}",
+      "group": {
+        "position": 2,
+        "title": "Teman"
+      },
+      "templated": true
+    }, {
+      "title": "Viaplay Premiere",
+      "href": "https://content.viaplay.se/androidv2-se/serier/viaplay-premiere{?dtg}",
+      "group": {
+        "position": 2,
+        "title": "Teman"
+      },
+      "templated": true
+    }, {
+      "title": "Baserade på böcker",
+      "href": "https://content.viaplay.se/androidv2-se/serier/baserade-pa-bocker{?dtg}",
+      "group": {
+        "position": 2,
+        "title": "Teman"
+      },
+      "templated": true
+    }]
+  },
+  "_embedded": {
+    "viaplay:blocks": [{
+      "ablocator": "66df6739-2ccd-4e1d-909e-8c7e1fbf2b46",
+      "position": 0,
+      "type": "list",
+      "client": {
+        "styles": "landscape"
+      },
+      "styles": ["series-list", "landscape", "list"],
+      "title": "Aktuella serier",
+      "totalProductCount": 57,
+      "currentPage": 1,
+      "pageCount": 6,
+      "productsPerPage": 10,
+      "_embedded": {
+        "viaplay:products": [{
+          "type": "series",
+          "publicPath": "x-files-the",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/473/764/xfiles_cover.jpg?width=199&height=298&token=4402c98e",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/473/764/xfiles_cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/473/764/xfiles_landscape.jpg?width=960&height=540&token=4af0fba6",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/473/764/xfiles_landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/473/764/xfiles_hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/473/764/xfiles_cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/473/764/xfiles_landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "The X-Files",
+              "synopsis": "FBI-agenterna Fox Mulder och Dana Scully har det paranormala som specialområde. Från genetiska mutanter till utomjordiska konspirationer - Mulder och Scully är på jakt efter sanningen.",
+              "seasons": 10
+            },
+            "imdb": {
+              "id": "tt0106179",
+              "rating": "8.7",
+              "votes": "127 105",
+              "url": "http://www.imdb.com/title/tt0106179?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 1993
+            }
+          },
+          "system": {
+            "flags": [],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "The X-Files",
+              "href": "https://content.viaplay.se/androidv2-se/serier/x-files-the?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "The X-Files",
+              "href": "https://content.viaplay.se/androidv2-se/serier/x-files-the{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Science fiction",
+              "href": "https://content.viaplay.se/androidv2-se/serier/science-fiction{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "outsiders",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/408/824/Outsiders_Cover.jpg?width=199&height=298&token=7577b3eb",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/408/824/Outsiders_Cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/413/204/Outsiders_Landscape.jpg?width=960&height=540&token=66db4c7d",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/413/204/Outsiders_Landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/413/204/Outsiders_Hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/408/824/Outsiders_Cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/413/204/Outsiders_Landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Outsiders",
+              "synopsis": "I Outsiders får vi följa klanen Farell, en grupp människor som står utanför samhällsnätet, och deras kamp om makt och kontroll i de karga och mystiska bergen i Appalachia.",
+              "availabilityInfo": "kommer på onsdagar.",
+              "seasons": 1
+            },
+            "imdb": {
+              "id": "tt4816626",
+              "rating": "7.7",
+              "votes": "325",
+              "url": "http://www.imdb.com/title/tt4816626?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2016
+            }
+          },
+          "system": {
+            "flags": ["dtg", "hd", "availableInHd"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Outsiders",
+              "href": "https://content.viaplay.se/androidv2-se/serier/outsiders?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Outsiders",
+              "href": "https://content.viaplay.se/androidv2-se/serier/outsiders{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Drama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/drama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "blacklist-the",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/368/608/TheBlacklist_cover.jpg?width=199&height=298&token=ca7c96fd",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/368/608/TheBlacklist_cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/368/608/TheBlacklist_landscape.jpg?width=960&height=540&token=66585275",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/368/608/TheBlacklist_landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/611/16/Hero_Blacklist.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/368/608/TheBlacklist_cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/368/608/TheBlacklist_landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "The Blacklist",
+              "synopsis": "FBI-agenten Elizabeth \"Liz\" Keen är nu en brottsling på flykt tillsammans med den mycket kriminella och smarta Raymond \"Red\" Reddington. De kämpar för att alltid vara steget före Liz förre detta kollegor, och hon blir alltmer inbiten i Reds värld av skumma typer och spännande uppdrag. Kommer den notoriska listan av Blacklisters denna säsong påverka utgången av Reds och Liz öde?",
+              "availabilityInfo": "kommer på fredagar.",
+              "seasons": 3
+            },
+            "imdb": {
+              "id": "tt2741602",
+              "rating": "8.2",
+              "votes": "74 123",
+              "url": "http://www.imdb.com/title/tt2741602?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2014
+            }
+          },
+          "system": {
+            "flags": ["dtg", "hd", "availableInHd"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "The Blacklist",
+              "href": "https://content.viaplay.se/androidv2-se/serier/blacklist-the?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "The Blacklist",
+              "href": "https://content.viaplay.se/androidv2-se/serier/blacklist-the{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Kriminaldrama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/kriminaldrama{?dtg}"
+            }, {
+              "title": "Action",
+              "href": "https://content.viaplay.se/androidv2-se/serier/action{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "episodes",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/817/160/episodes_cover.jpg?width=199&height=298&token=1d3e5dda",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/817/160/episodes_cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/817/160/episodes_landscape.jpg?width=960&height=540&token=1abba68c",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/817/160/episodes_landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/817/160/episodes_hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/817/160/episodes_cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/817/160/episodes_landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "15",
+            "series": {
+              "title": "Episodes",
+              "synopsis": "De brittiska producenterna Beverly och Sean Lincoln har ett fantastiskt äktenskap och en stor TV-serie på meritlistan. Saker kunde inte gå bättre. Merc Lapidus, en TV-chef i Hollywood, är övertygad om att en remake av deras serie hade blivit en publiksuccé i USA. Efter att Lincolns får ett lukrativt erbjudande packar de väskorna och beger sig till Los Angeles.",
+              "seasons": 4
+            },
+            "imdb": {
+              "id": "tt1582350",
+              "rating": "7.8",
+              "votes": "23 784",
+              "url": "http://www.imdb.com/title/tt1582350?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2011
+            }
+          },
+          "system": {
+            "flags": ["dtg", "hd", "availableInHd"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Episodes",
+              "href": "https://content.viaplay.se/androidv2-se/serier/episodes?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Episodes",
+              "href": "https://content.viaplay.se/androidv2-se/serier/episodes{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Komedi",
+              "href": "https://content.viaplay.se/androidv2-se/serier/komedi{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "red-band-society",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/114/32/redbandsociety_cover.jpg?width=199&height=298&token=718a6ab9&template=abcstudios",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/114/32/redbandsociety_cover.jpg{?width,height,token}&template=abcstudios"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/114/32/redbandsociety_landscape2.jpg?width=960&height=540&token=0a179858&template=abcstudios",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/114/32/redbandsociety_landscape2.jpg{?width,height,token}&template=abcstudios"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/114/32/redbandsociety_hero.jpg{?width,height,token}&template=abcstudios"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/114/32/redbandsociety_cover.jpg{?width,height,token}&template=abcstudios"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/114/32/redbandsociety_landscape2.jpg{?width,height,token}&template=abcstudios"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Red Band Society",
+              "synopsis": "En provokativ och unik dramakomedi om att bli vuxen och en grupp osannolika och rebelliska vänner och de vuxna som är deras mentorer under ungdomens ostadiga tid.",
+              "seasons": 1
+            },
+            "imdb": {
+              "id": "tt3576794",
+              "rating": "8.0",
+              "votes": "7 148",
+              "url": "http://www.imdb.com/title/tt3576794?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2014
+            }
+          },
+          "system": {
+            "flags": ["dtg"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Red Band Society",
+              "href": "https://content.viaplay.se/androidv2-se/serier/red-band-society?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Red Band Society",
+              "href": "https://content.viaplay.se/androidv2-se/serier/red-band-society{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Komedi",
+              "href": "https://content.viaplay.se/androidv2-se/serier/komedi{?dtg}"
+            }, {
+              "title": "Drama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/drama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "mozart-in-the-jungle",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/213/156/MITJ_S2_cover.jpg?width=199&height=298&token=72e53bf0",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/213/156/MITJ_S2_cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/213/156/MITJ_S2_Landscape.jpg?width=960&height=540&token=50a66c79",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/213/156/MITJ_S2_Landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/331/236/Mozartinthejungle_hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/213/156/MITJ_S2_cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/213/156/MITJ_S2_Landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Mozart in the Jungle",
+              "synopsis": "Mozart in the Jungle ger en vass inblick in i den klassiska musikvärlden med den prisbelönta Gael Garcia Bernal i huvudrollen. Serien, som är inspirerad av Blair Tindalls memoarer, följer de sexiga äventyren bland orkestermedlemmar och dirigenter. Sex, droger och klassisk musik - det som händer bakom draperierna kan vara minst lika fängslande som det som händer på scenen.",
+              "seasons": 2
+            },
+            "imdb": {
+              "id": "tt3502172",
+              "rating": "8.2",
+              "votes": "5 173",
+              "url": "http://www.imdb.com/title/tt3502172?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2014
+            }
+          },
+          "system": {
+            "flags": ["dtg"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Mozart in the Jungle",
+              "href": "https://content.viaplay.se/androidv2-se/serier/mozart-in-the-jungle?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Mozart in the Jungle",
+              "href": "https://content.viaplay.se/androidv2-se/serier/mozart-in-the-jungle{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Komedi",
+              "href": "https://content.viaplay.se/androidv2-se/serier/komedi{?dtg}"
+            }, {
+              "title": "Drama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/drama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "private-practice",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/209/752/privatepractice_cover.jpg?width=199&height=298&token=47c4dec2&template=abcstudios",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/209/752/privatepractice_cover.jpg{?width,height,token}&template=abcstudios"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/209/752/privatepractice_landscape.jpg?width=960&height=540&token=7ca6c29e&template=abcstudios",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/209/752/privatepractice_landscape.jpg{?width,height,token}&template=abcstudios"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/209/752/privatepractice_hero.jpg{?width,height,token}&template=abcstudios"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/209/752/privatepractice_cover.jpg{?width,height,token}&template=abcstudios"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/209/752/privatepractice_landscape.jpg{?width,height,token}&template=abcstudios"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Private Practice",
+              "synopsis": "Dr Addison Forbes Montgomery lämnar sjukhuset Seattle Grace för att starta ett nytt liv på en privatpraktik i LA. Där jobbar hon med sina nyskilda vänner från läkarutbildningen och möter en ny stad och nya arbetsmetoder.",
+              "seasons": 6
+            },
+            "imdb": {
+              "id": "tt0972412",
+              "rating": "6.6",
+              "votes": "17 628",
+              "url": "http://www.imdb.com/title/tt0972412?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2007
+            }
+          },
+          "system": {
+            "flags": ["dtg"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Private Practice",
+              "href": "https://content.viaplay.se/androidv2-se/serier/private-practice?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Private Practice",
+              "href": "https://content.viaplay.se/androidv2-se/serier/private-practice{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Drama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/drama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "transparent",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/268/412/Transparent_Cover.jpg?width=199&height=298&token=9da55a8f",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/268/412/Transparent_Cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/269/388/Transparent_Landscape.jpg?width=960&height=540&token=aa48d3b4",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/269/388/Transparent_Landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/598/828/hero_transparent_GE.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/268/412/Transparent_Cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/269/388/Transparent_Landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "15",
+            "series": {
+              "title": "Transparent",
+              "synopsis": "Transparent är en helt ny dramakomediserie med mörka och psykologiska undertoner. Handlingen kretsar kring en familj i Los Angeles vars hela tillvaro vänds upp och ned när pappan avslöjar att hon är transexuell och i hela sitt liv har känt sig som en kvinna fångad i en manskropp. Serien är skapad av Jill Soloway och huvudrollen spelas av Jeffrey Tambor.",
+              "seasons": 2
+            },
+            "imdb": {
+              "id": "tt3502262",
+              "rating": "8.1",
+              "votes": "7 363",
+              "url": "http://www.imdb.com/title/tt3502262?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2014
+            }
+          },
+          "system": {
+            "flags": ["dtg"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Transparent",
+              "href": "https://content.viaplay.se/androidv2-se/serier/transparent?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Transparent",
+              "href": "https://content.viaplay.se/androidv2-se/serier/transparent{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Komedi",
+              "href": "https://content.viaplay.se/androidv2-se/serier/komedi{?dtg}"
+            }, {
+              "title": "Drama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/drama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "4400-the",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/432/976/The4400_Cover.jpg?width=199&height=298&token=994c116d",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/432/976/The4400_Cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/432/476/The4400_Landscape.jpg?width=960&height=540&token=53b355c9",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/432/476/The4400_Landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/432/976/The4400_Hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/432/976/The4400_Cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/432/476/The4400_Landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "The 4400",
+              "synopsis": "När ett oidentifierat flygande föremål plötsligt landar på jorden och släpper av hela 4 400 saknade människor står det snart klart att världen aldrig mer kommer att bli sig lik.",
+              "seasons": 3
+            },
+            "imdb": {
+              "id": "tt0389564",
+              "rating": "7.4",
+              "votes": "34 934",
+              "url": "http://www.imdb.com/title/tt0389564?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2004
+            }
+          },
+          "system": {
+            "flags": ["dtg"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "The 4400",
+              "href": "https://content.viaplay.se/androidv2-se/serier/4400-the?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "The 4400",
+              "href": "https://content.viaplay.se/androidv2-se/serier/4400-the{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Science fiction",
+              "href": "https://content.viaplay.se/androidv2-se/serier/science-fiction{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "road-to-the-nhl-winter-classic",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/183/396/nhlrttwc_cover.jpg?width=199&height=298&token=51cc909a",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/183/396/nhlrttwc_cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/183/396/nhlrttwc_landscape.jpg?width=960&height=540&token=f419f141",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/183/396/nhlrttwc_landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/254/280/RoadtoWinterClassic_hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/183/396/nhlrttwc_cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/183/396/nhlrttwc_landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Road to the NHL Winter Classic",
+              "synopsis": "Road To The NHL Winter Classic har blivit en av de mest omtalade dokumentära sportserierna. Tittarna ges en unik inblick i lagens förberedelser inför den numer klassiska utomhusmatchen NHL Winter Classic. Inför nyårsdagsdrabbningen mellan Boston Bruins och Montreal Canadiens laddar Viaplay upp från omklädningsrummen, där stjärnorna gör sig redo för en av säsongens stora höjdpunkter i världens bästa hockeyliga.",
+              "seasons": 3
+            },
+            "imdb": {
+              "id": "tt4604454",
+              "rating": "8.2",
+              "votes": "18",
+              "url": "http://www.imdb.com/title/tt4604454?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2013
+            }
+          },
+          "system": {
+            "flags": ["dtg"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Road to the NHL Winter Classic",
+              "href": "https://content.viaplay.se/androidv2-se/serier/road-to-the-nhl-winter-classic?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Road to the NHL Winter Classic",
+              "href": "https://content.viaplay.se/androidv2-se/serier/road-to-the-nhl-winter-classic{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Sportdokumentärer",
+              "href": "https://content.viaplay.se/androidv2-se/serier/sportdokumentarer{?dtg}"
+            }, {
+              "title": "Dokumentärer",
+              "href": "https://content.viaplay.se/androidv2-se/serier/dokumentarer{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }]
+      },
+      "_links": {
+        "self": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=0&partial=1&pageNumber=1{&dtg}",
+          "templated": true
+        },
+        "next": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=0&partial=1&pageNumber=2{&dtg}",
+          "templated": true
+        },
+        "first": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=0&partial=1&pageNumber=1{&dtg}",
+          "templated": true
+        },
+        "last": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=0&partial=1&pageNumber=6{&dtg}",
+          "templated": true
+        },
+        "viaplay:seeAll": {
+          "title": "Visa fler",
+          "href": "https://content.viaplay.se/androidv2-se/serier/samtliga?sort=recently_added{&dtg}"
+        }
+      }
+    }, {
+      "ablocator": "5a3564a0-1c82-4580-b14b-7eadd7e3ecbc",
+      "position": 1,
+      "type": "list",
+      "client": {
+        "styles": "landscape"
+      },
+      "styles": ["landscape", "list"],
+      "title": "Kriminalspecial",
+      "totalProductCount": 9,
+      "currentPage": 1,
+      "pageCount": 1,
+      "productsPerPage": 10,
+      "_embedded": {
+        "viaplay:products": [{
+          "type": "series",
+          "publicPath": "maria-wern",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/192/736/MariaWern_cover.jpg?width=199&height=298&token=af566f83",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/192/736/MariaWern_cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/192/736/MariaWern_landscape__830478.jpg?width=960&height=540&token=6249794d",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/192/736/MariaWern_landscape__830478.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/192/736/MariaWern_hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/192/736/MariaWern_cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/192/736/MariaWern_landscape__830478.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Maria Wern",
+              "synopsis": "Kriminalinspektör Maria Wern återvänder till Gotlandspolisen efter en längre ledighet och kastas direkt in i en mordutredning. Samtidigt bekräftas att två personer befaras ha dött i fågelinfluensa. Under Marias ledning sätts alla resurser in för att begränsa smittan. Spaningsarbetet visar att den man vars mord Maria utreder har fört in smittade fåglar till Gotland och på så sätt planterat viruset. Den virusmedicin man ställt sitt hopp till visar sig vara verkningslös, och allt fl er människor insjuknar.",
+              "seasons": 1
+            },
+            "imdb": {
+              "id": "tt1129398",
+              "rating": "6.5",
+              "votes": "337",
+              "url": "http://www.imdb.com/title/tt1129398?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2008
+            }
+          },
+          "system": {
+            "flags": ["dtg"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Maria Wern",
+              "href": "https://content.viaplay.se/androidv2-se/serier/maria-wern?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Maria Wern",
+              "href": "https://content.viaplay.se/androidv2-se/serier/maria-wern{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Kriminaldrama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/kriminaldrama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "unni-lindell",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/596/40/unnilindell_cover.jpg?width=199&height=298&token=1b5d851a",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/596/40/unnilindell_cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/596/40/unnilindell_landscape.jpg?width=960&height=540&token=1686cbf4",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/596/40/unnilindell_landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/596/40/unnilindell_hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/596/40/unnilindell_cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/596/40/unnilindell_landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Unni Lindell",
+              "synopsis": "I denna serien, baserad på de populära kriminalromanerna av den norska författaren Unni Lindell, möter vi Cato Isaksen. En medelålders kriminalutredare som ständigt överträffar sig själv på jobbet, men vars privatliv lämnar mycket att önska.",
+              "seasons": 1
+            },
+            "imdb": {
+              "id": "tt0429342",
+              "rating": "6.2",
+              "votes": "84",
+              "url": "http://www.imdb.com/title/tt0429342?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2005
+            }
+          },
+          "system": {
+            "flags": [],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Unni Lindell",
+              "href": "https://content.viaplay.se/androidv2-se/serier/unni-lindell?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Unni Lindell",
+              "href": "https://content.viaplay.se/androidv2-se/serier/unni-lindell{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Kriminaldrama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/kriminaldrama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "johan-falk",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/194/188/JohanFalk_cover.jpg?width=199&height=298&token=e0c219b4",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/194/188/JohanFalk_cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/194/188/JohanFalk_landscape.jpg?width=960&height=540&token=d0688781",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/194/188/JohanFalk_landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/194/188/JohanFalk_hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/194/188/JohanFalk_cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/194/188/JohanFalk_landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12a",
+            "series": {
+              "title": "Johan Falk",
+              "synopsis": "I Johan Falk följer vi de hårda och mycket spännande historierna om polisens specialstyrka GSI. Serien är inspirerad av verkliga händelser, brott, infiltratörer och poliser.",
+              "seasons": 1
+            },
+            "imdb": {
+              "id": "tt1295905",
+              "rating": "6.8",
+              "votes": "2 274",
+              "url": "http://www.imdb.com/title/tt1295905?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2009
+            }
+          },
+          "system": {
+            "flags": [],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Johan Falk",
+              "href": "https://content.viaplay.se/androidv2-se/serier/johan-falk?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Johan Falk",
+              "href": "https://content.viaplay.se/androidv2-se/serier/johan-falk{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Kriminaldrama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/kriminaldrama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "fjallbackamorden",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/741/560/SE_Lackberg_Cover.jpg?width=199&height=298&token=28906618",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/741/560/SE_Lackberg_Cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/738/632/SE_Lackberg_Landscape.jpg?width=960&height=540&token=875f1c8f",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/738/632/SE_Lackberg_Landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/741/560/Lackberg_Hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/741/560/SE_Lackberg_Cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/738/632/SE_Lackberg_Landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Fjällbackamorden",
+              "synopsis": "Deckarförfattaren Erica bor tillsammans med sin man Patric som är polis. När ett mordoffer påträffas känner de sig båda manade att försöka lösa fallet.",
+              "seasons": 1
+            },
+            "imdb": {
+              "id": "tt2216856",
+              "rating": "5.9",
+              "votes": "984",
+              "url": "http://www.imdb.com/title/tt2216856?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2012
+            }
+          },
+          "system": {
+            "flags": ["dtg"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Fjällbackamorden",
+              "href": "https://content.viaplay.se/androidv2-se/serier/fjallbackamorden?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Fjällbackamorden",
+              "href": "https://content.viaplay.se/androidv2-se/serier/fjallbackamorden{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Kriminaldrama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/kriminaldrama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "liza-marklund",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/755/224/LizaMarklund_Cover.jpg?width=199&height=298&token=e042479d",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/755/224/LizaMarklund_Cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/755/224/LizaMarklund2_Landscape.jpg?width=960&height=540&token=7b71f14d",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/755/224/LizaMarklund2_Landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/755/724/LizaMarklund_Hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/755/224/LizaMarklund_Cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/755/224/LizaMarklund2_Landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Liza Marklund",
+              "synopsis": "Journalisten Annika Bengtzon, bor på Kungsholmen i Stockholm och är en typisk kvinna mitt i karriären på tidningen Kvällspressen. I sitt jobb som kriminalreporter lyckas hon snubbla in i den ena farliga situationen efter den andra.",
+              "seasons": 1
+            },
+            "imdb": {
+              "id": "tt1794886",
+              "rating": "5.9",
+              "votes": "1 900",
+              "url": "http://www.imdb.com/title/tt1794886?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2008
+            }
+          },
+          "system": {
+            "flags": [],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Liza Marklund",
+              "href": "https://content.viaplay.se/androidv2-se/serier/liza-marklund?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Liza Marklund",
+              "href": "https://content.viaplay.se/androidv2-se/serier/liza-marklund{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Kriminaldrama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/kriminaldrama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "irene-huss",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/Irenehuss_cover.jpg?width=199&height=298&token=bbaf35c9",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/Irenehuss_cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/Irenehuss_landscape.jpg?width=960&height=540&token=0850d4af",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/Irenehuss_landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/Irenehuss_landscape.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/Irenehuss_cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/Irenehuss_landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Irene Huss",
+              "synopsis": "Irene Huss är en karismatisk och modern kvinna som tidigare varit europamästare i Ju-jutsu. 38 år gammal är hon mitt uppe i karriären som kriminalinspektör, men hanterar samtidigt ett hemmaliv med make och två tonårsdöttrar.",
+              "seasons": 1
+            },
+            "imdb": {
+              "id": "tt0940780",
+              "rating": "5.5",
+              "votes": "715",
+              "url": "http://www.imdb.com/title/tt0940780?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2007
+            }
+          },
+          "system": {
+            "flags": ["dtg"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Irene Huss",
+              "href": "https://content.viaplay.se/androidv2-se/serier/irene-huss?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Irene Huss",
+              "href": "https://content.viaplay.se/androidv2-se/serier/irene-huss{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Kriminaldrama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/kriminaldrama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "ettor-and-nollor",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/ettornollor_cover.jpg?width=199&height=298&token=54ca1e79",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/ettornollor_cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/ettornollor_landscape.jpg?width=960&height=540&token=769d09c0",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/ettornollor_landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/ettornollor_hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/ettornollor_cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/578/472/ettornollor_landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Ettor & Nollor",
+              "synopsis": "FBI och Interpol får nys om en stor kreditkortshärva och pundaren Sebbe plockas in som misstänkt. När polisen börjar sina förhör får de höra en otrolig historia från Göteborgs undre värld.  Svenska och ryska gangsters, marockanska hackers, korrupta politiker och giriga kostymnissar - alla vill tjäna stora pengen, ingen vill vara hunden.",
+              "seasons": 1
+            },
+            "imdb": {
+              "id": "tt3465448",
+              "rating": "6.6",
+              "votes": "302",
+              "url": "http://www.imdb.com/title/tt3465448?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2014
+            }
+          },
+          "system": {
+            "flags": ["dtg"],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Ettor & Nollor",
+              "href": "https://content.viaplay.se/androidv2-se/serier/ettor-and-nollor?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Ettor & Nollor",
+              "href": "https://content.viaplay.se/androidv2-se/serier/ettor-and-nollor{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Kriminaldrama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/kriminaldrama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "bla-ogon",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/595/64/blaogon_cover.jpg?width=199&height=298&token=45a80357",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/595/64/blaogon_cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/595/64/blaogon_landscape.jpg?width=960&height=540&token=3ec22366",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/595/64/blaogon_landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/595/64/blaogon_hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/595/64/blaogon_cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/595/64/blaogon_landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Blå Ögon",
+              "synopsis": "Det är knappt tio veckor till riksdagsvalet när Annika Nilsson, lokalpolitiker i Uddevalla, mördas på väg hem från ett torgmöte. Det som borde vara en enkel fråga - våldet mot folkvalda politiker - kompliceras av hennes partitillhörighet. Medan Trygghetspartiet och regeringen slåss om vem som kan vinna flest poäng på Annikas död, hamnar hennes två vuxna barn, Sebbe och Sofia, i kläm mellan olika drivkrafter som vill utnyttja dem.",
+              "seasons": 1
+            },
+            "imdb": {
+              "id": "tt3632248",
+              "rating": "6.2",
+              "votes": "326",
+              "url": "http://www.imdb.com/title/tt3632248?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2014
+            }
+          },
+          "system": {
+            "flags": [],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Blå Ögon",
+              "href": "https://content.viaplay.se/androidv2-se/serier/bla-ogon?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Blå Ögon",
+              "href": "https://content.viaplay.se/androidv2-se/serier/bla-ogon{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Kriminaldrama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/kriminaldrama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }, {
+          "type": "series",
+          "publicPath": "arne-dahl",
+          "content": {
+            "images": {
+              "boxart": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/694/188/arnedahl_cover.jpg?width=199&height=298&token=19a1fcf0",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/694/188/arnedahl_cover.jpg{?width,height,token}"
+              },
+              "landscape": {
+                "url": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/694/188/arnedahl_landscape.jpg?width=960&height=540&token=b0e24597",
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/694/188/arnedahl_landscape.jpg{?width,height,token}"
+              },
+              "hero169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/694/188/arnedahl_hero.jpg{?width,height,token}"
+              },
+              "coverart23": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/694/188/arnedahl_cover.jpg{?width,height,token}"
+              },
+              "coverart169": {
+                "template": "http://i.viaplay.com/scandi/Viaplay_Prod_-_Scandi/694/188/arnedahl_landscape.jpg{?width,height,token}"
+              }
+            },
+            "people": {},
+            "parentalRating": "12",
+            "series": {
+              "title": "Arne Dahl",
+              "synopsis": "En brokig samling poliser bildar över en natt A-gruppen, en specialenhet inom den svenska polisen vars uppgift blir att utreda särskilt våldsamma och komplicerade våldsbrott. Utredningarna sträcker sig ofta bortom alla tänkbara gränser vilket påverkar poliserna hårt, både som kollegor och som människor.",
+              "seasons": 1
+            },
+            "imdb": {
+              "id": "tt2113148",
+              "rating": "6.5",
+              "votes": "813",
+              "url": "http://www.imdb.com/title/tt2113148?ref_ext_viaplay"
+            },
+            "production": {
+              "year": 2011
+            }
+          },
+          "system": {
+            "flags": [],
+            "isKids": false
+          },
+          "_links": {
+            "self": {
+              "title": "Arne Dahl",
+              "href": "https://content.viaplay.se/androidv2-se/serier/arne-dahl?partial=true&block=1{&dtg}"
+            },
+            "viaplay:page": {
+              "title": "Arne Dahl",
+              "href": "https://content.viaplay.se/androidv2-se/serier/arne-dahl{?dtg}"
+            },
+            "viaplay:genres": [{
+              "title": "Kriminaldrama",
+              "href": "https://content.viaplay.se/androidv2-se/serier/kriminaldrama{?dtg}"
+            }],
+            "viaplay:peopleSearch": {
+              "href": "https://content.viaplay.se/androidv2-se/search?query=\"{person}\"{&dtg}",
+              "templated": true
+            }
+          },
+          "notice": {
+            "message": "User must login to view content",
+            "code": 1002,
+            "_links": {
+              "curies": [{
+                "name": "viaplay",
+                "href": "http://docs.viaplay.tv/rel/{rel}",
+                "templated": true
+              }],
+              "viaplay:accountPurchasePackage": {
+                "href": "/package?recommended=viaplay",
+                "templated": false,
+                "redirect": false
+              }
+            }
+          }
+        }]
+      },
+      "_links": {
+        "self": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=1&partial=1&pageNumber=1{&dtg}",
+          "templated": true
+        }
+      }
+    }, {
+      "ablocator": "af915430-2390-4bbf-be5b-7ee773e716dd",
+      "position": 2,
+      "type": "list",
+      "client": {
+        "styles": "landscape"
+      },
+      "styles": ["landscape", "list"],
+      "title": "Populära serier",
+      "productsPerPage": 10,
+      "_links": {
+        "self": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=2&partial=1&pageNumber=1{&dtg}",
+          "templated": true
+        },
+        "viaplay:seeAll": {
+          "title": "Visa fler",
+          "href": "https://content.viaplay.se/androidv2-se/serier/samtliga?sort=most_popular{&dtg}"
+        }
+      }
+    }, {
+      "ablocator": "5d356b0c-e3b5-41d2-839b-2b97ec25ce61",
+      "position": 4,
+      "type": "list",
+      "client": {
+        "styles": "landscape"
+      },
+      "styles": ["landscape", "list"],
+      "title": "Seriemaraton",
+      "productsPerPage": 10,
+      "_links": {
+        "self": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=4&partial=1&pageNumber=1{&dtg}",
+          "templated": true
+        },
+        "viaplay:seeAll": {
+          "title": "Visa fler",
+          "href": "https://content.viaplay.se/androidv2-se/serier/seriemaraton?sort=most_popular{&dtg}"
+        }
+      }
+    }, {
+      "ablocator": "db06950a-7633-4491-9977-b0e4f2d98ebf",
+      "position": 5,
+      "type": "list",
+      "client": {
+        "styles": "landscape"
+      },
+      "styles": ["landscape", "list"],
+      "title": "Komedier",
+      "productsPerPage": 10,
+      "_links": {
+        "self": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=5&partial=1&pageNumber=1{&dtg}",
+          "templated": true
+        },
+        "viaplay:seeAll": {
+          "title": "Visa fler",
+          "href": "https://content.viaplay.se/androidv2-se/serier/komedi?sort=highest_ratings{&dtg}"
+        }
+      }
+    }, {
+      "ablocator": "d5151024-4d53-4733-a8cb-d6f88391996b",
+      "position": 6,
+      "type": "list",
+      "client": {
+        "styles": "landscape"
+      },
+      "styles": ["series-list", "landscape", "list"],
+      "title": "Svenska serier",
+      "productsPerPage": 10,
+      "_links": {
+        "self": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=6&partial=1&pageNumber=1{&dtg}",
+          "templated": true
+        },
+        "viaplay:seeAll": {
+          "title": "Visa fler",
+          "href": "https://content.viaplay.se/androidv2-se/serier/svenska-serier?sort=most_popular{&dtg}"
+        }
+      }
+    }, {
+      "ablocator": "4e98cc48-191b-49ba-8a17-7e45cb39e98a",
+      "position": 7,
+      "type": "list",
+      "client": {
+        "styles": "landscape"
+      },
+      "styles": ["landscape", "list"],
+      "title": "Djur och natur",
+      "productsPerPage": 10,
+      "_links": {
+        "self": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=7&partial=1&pageNumber=1{&dtg}",
+          "templated": true
+        },
+        "viaplay:seeAll": {
+          "title": "Visa fler",
+          "href": "https://content.viaplay.se/androidv2-se/serier/djur-och-natur{?dtg}"
+        }
+      }
+    }, {
+      "ablocator": "23f361a6-98d4-4c98-9bfa-a48d937acfc5",
+      "position": 8,
+      "type": "list",
+      "client": {
+        "styles": "landscape"
+      },
+      "styles": ["landscape", "list"],
+      "title": "Kriminaldrama",
+      "productsPerPage": 10,
+      "_links": {
+        "self": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=8&partial=1&pageNumber=1{&dtg}",
+          "templated": true
+        },
+        "viaplay:seeAll": {
+          "title": "Visa fler",
+          "href": "https://content.viaplay.se/androidv2-se/serier/kriminaldrama?sort=highest_ratings{&dtg}"
+        }
+      }
+    }, {
+      "ablocator": "7401f31e-eef6-4ef3-9c52-449a41d81d39",
+      "position": 9,
+      "type": "list",
+      "client": {
+        "styles": "landscape"
+      },
+      "styles": ["landscape", "list"],
+      "title": "Dokumentärer",
+      "productsPerPage": 10,
+      "_links": {
+        "self": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=9&partial=1&pageNumber=1{&dtg}",
+          "templated": true
+        },
+        "viaplay:seeAll": {
+          "title": "Visa fler",
+          "href": "https://content.viaplay.se/androidv2-se/serier/dokumentarer{?dtg}"
+        }
+      }
+    }, {
+      "ablocator": "a52eec68-9c04-422a-99b7-521a063d3810",
+      "position": 10,
+      "type": "list",
+      "client": {
+        "styles": "landscape"
+      },
+      "styles": ["series-list", "landscape", "list"],
+      "title": "Senast tillagda serier",
+      "productsPerPage": 10,
+      "_links": {
+        "self": {
+          "href": "https://content.viaplay.se/androidv2-se/serier?block=10&partial=1&pageNumber=1{&dtg}",
+          "templated": true
+        },
+        "viaplay:seeAll": {
+          "title": "Visa fler",
+          "href": "https://content.viaplay.se/androidv2-se/serier/samtliga?sort=recently_added{&dtg}"
+        }
+      }
+    }]
+  },
+  "responseCode": {
+    "httpStatus": 200,
+    "statusCode": 200,
+    "code": 1
+  }
+}

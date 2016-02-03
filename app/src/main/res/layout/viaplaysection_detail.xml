@@ -1,9 +1,29 @@
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/viaplaysection_detail"
-    style="?android:attr/textAppearanceLarge"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:textIsSelectable="true"
-    tools:context="com.test.viaplay.biocram.viaplaytest.ViaplaySectionDetailFragment" />
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context="com.test.viaplay.biocram.viaplaytest.ViaplaySectionDetailFragment">
+
+    <TextView
+        android:id="@+id/textview_title"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        tools:text="TITOLO" />
+
+    <TextView
+        android:id="@+id/textview_description"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        tools:text="DESCRIZIONE" />
+
+
+</LinearLayout>

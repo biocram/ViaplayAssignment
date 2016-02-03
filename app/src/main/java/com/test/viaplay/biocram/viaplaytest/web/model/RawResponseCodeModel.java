@@ -3,7 +3,7 @@ package com.test.viaplay.biocram.viaplaytest.web.model;
 
 import com.google.gson.annotations.SerializedName;
 
-public class ResponseCode {
+public class RawResponseCodeModel {
 
     @SerializedName("httpStatus")
     private Integer httpStatus;

@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.test.viaplay.biocram.viaplaytest.R;
+import com.test.viaplay.biocram.viaplaytest.data.model.SectionModel;
 import com.test.viaplay.biocram.viaplaytest.utils.CommonUtil;
-import com.test.viaplay.biocram.viaplaytest.web.model.ViaplaySection;
 
 import java.util.List;
 
@@ -21,10 +21,10 @@ public class SectionAdapter extends RecyclerView.Adapter<SectionAdapter.ViewHold
         void onSectionClicked(int pos);
     }
 
-    private List<ViaplaySection> mSections;
+    private List<SectionModel> mSections;
     private OnSectionClickListener mListener;
 
-    public SectionAdapter(List<ViaplaySection> sections, OnSectionClickListener listener) {
+    public SectionAdapter(List<SectionModel> sections, OnSectionClickListener listener) {
         mSections = sections;
         mListener = listener;
     }
@@ -40,7 +40,7 @@ public class SectionAdapter extends RecyclerView.Adapter<SectionAdapter.ViewHold
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
 
-        holder.setTitle(mSections.get(position).getTitle());
+        holder.setTitle(mSections.get(position).getName());
 
         holder.setOnClickListener(new View.OnClickListener() {
             @Override
